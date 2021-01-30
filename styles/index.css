@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2357653_kznz8zzv43.eot?t=1611996266143');
+  /* IE9 */
+  src: url('//at.alicdn.com/t/font_2357653_kznz8zzv43.eot?t=1611996266143#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAALYAAsAAAAABrQAAAKLAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCfgqBJIEkATYCJAMMCwgABCAFhG0HNxvjBRHVky1kX2PsGkCqzWATnZFjukuQXLh/acHwLEbVPQBQAhIAAAAAIHgex9r72049odLELbuF7BIalRBptMvgFQ/5YAMOGlIcRP5yzmRARr1QJbWrHXlU4/QDLX9+JJTaGiBAJnAADJ5bxYN2kKtUC7VRk6bJe6Dn/F8H7PD383kupzeBrk3zA+UyxqA9bPhRL8A4oADHWhRZEUXcIruIO3ERxyGAk2SFpHndPYwY0DgBZMnNjmMhjcEYNTuCtWGpQU4ZYld76oKT6Pvya9lBYdGgqf0zLVP0s2ZOzCdOkBEI8moLoIFCYEBGG8v9gBicxlkOmdhXP4HP/zMeQvYqUyB/Hal3A5Ar29UdGakfuTWjvAIFgAbAWqwWgnKFDc8TJNXaNDdXaj8cRKLvpWmby2l9EItD6dYbr3Muw+DKuDcxeF000XJ/Puwft/x4qmXcn9cSc1X453GAKP3yFayajfEIY6Cf0bXoAdBr8hYJCOzjM5671b/aAPCmeRQwwF32E0UEfpoR2GJ8Mwpq4xqoIYxqUgElBTj9GAkUD/oY74qAm0GwExkRtZGUQWMnkzRsISy4KIYVO3VwUqBttYuQDUCMA8i3JUHwu4PCyz00fnHSsO+wEPUPK/40nIxKaEsX2bFutiC8M2bw+IJTTa1JmGdx4xbNs7xT3hzJj0je5SAOonJtgzXSHDP8yyTMGjQ1Fayl07AsG2ipyVFxYJnbNAx105sC1VRiJhaEd8YMHl9wqqk178yzyue3aJ7lnTp4Pc0jkne9QxxEAHLjqEG8e3nFv0zCrEFTU8FaGoRl2UDbPChHxYEdUWzTELfTUEewvqv6vl2AU6A9tezJvhyIoSobj8PK1U8vBAA=') format('woff2'),
+    url('//at.alicdn.com/t/font_2357653_kznz8zzv43.woff?t=1611996266143') format('woff'),
+    url('//at.alicdn.com/t/font_2357653_kznz8zzv43.ttf?t=1611996266143') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_2357653_kznz8zzv43.svg?t=1611996266143#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+  content: "\e7fc";
+}
+
+.icon-minus:before {
+  content: "\e7fd";
+}
+
+.tool-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px;
+
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+.tool-bar>.title {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.tool-bar>.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-bar>.right>.btn {
+  margin-left: 10px;
+  color: #ddd;
+  -webkit-app-region: no-drag;
+}
+
+.tool-bar>.right>.btn:hover {
+  color: #3fb950;
+}
+
+.content {
+  padding: 20px 16px;
+  height: 500px;
+  position: relative;
+}
+
+.content .form-item {
+  margin: 24px 0;
+}
+
+.content .form-item>.label {
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.content .form-item>.form-item-body {
+  display: flex;
+  align-items: center;
+}
+
+.content .form-item .display-text {
+  font-size: 12px;
+  color: rgb(185, 185, 185);
+  margin-top: 8px;
+}
+
+.content .reset-btn {
+  position: absolute;
+  bottom: 52px;
+  left: 16px;
+  right: 16px;
+  text-align: center;
+  background-color: #21262d;
+  border-color: #30363d;
+  color: #f85149;
+}
+
+.content .reset-btn:hover {
+  color: white;
+  background-color: #da3633;
+  border-color: #f85149;
+}
+
+.content .start-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+  right: 16px;
+  text-align: center;
+  background-color: #238636;
+  border-color: #3fb950;
+  color: white;
+}
+
+.content .start-btn:hover {
+  background-color: #2ea043;
+  border-color: #3fb950;
+}
+
+.radio-box {
+  font-size: 14px;
+  width: 80px;
+}
+
+.radio-box>.text {
+  display: inline-block;
+  margin-left: 2px;
+  font-size: 14px;
+}
+
+.radio {
+  box-sizing: border-box;
+  padding: 0;
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  border: initial;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+}
+
+.button {
+  color: #c9d1d9;
+  background-color: #21262d;
+  border-color: #30363d;
+  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+  position: relative;
+  display: inline-block;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid;
+  border-radius: 6px;
+  appearance: none;
+}
+
+.button:hover {
+  background-color: #30363d;
+  border-color: #8b949e;
+  transition-duration: .1s;
+}

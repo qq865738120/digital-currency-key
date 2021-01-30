@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>文件加解密</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <body>
+    <section class="tool-bar">
+      <div class="title">文件加密工具</div>
+      <div class="right">
+        <div id="minus-btn" class="iconfont icon-minus btn"></div>
+        <div id="close-btn" class="iconfont icon-close btn"></div>
+      </div>
+    </section>
+
+    <section class="content">
+      <form>
+        <div class="form-item">
+          <div class="label">操作类型</div>
+          <div class="form-item-body">
+            <div class="radio-box">
+              <input
+                id="radio-encode"
+                class="radio"
+                type="radio"
+                name="action"
+                value="encode"
+                checked="true"
+              />
+              <span class="text">加密</span>
+            </div>
+            <div class="radio-box">
+              <input
+                id="radio-decode"
+                class="radio"
+                type="radio"
+                name="action"
+                value="decode"
+              />
+              <span class="text">解密</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-item">
+          <div id="file-label" class="label">待加密文件</div>
+          <div class="form-item-body">
+            <div id="selected-file-btn" class="button">选择文件</div>
+          </div>
+          <div id="selected-file-display" class="display-text"></div>
+        </div>
+
+        <div id="img-box" class="form-item" style="display: none;">
+          <div class="label">二维码密钥</div>
+          <div class="form-item-body">
+            <div id="selected-img-btn" class="button">选择文件</div>
+          </div>
+          <div id="selected-img-display" class="display-text"></div>
+        </div>
+      </form>
+
+      <div id="reset-action" class="button reset-btn">重置</div>
+      <div id="start-action" class="button start-btn">开始</div>
+    </section>
+
+    <script src="src/render.js"></script>
+  </body>
+</html>
