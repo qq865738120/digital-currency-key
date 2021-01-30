@@ -1,2 +1,15 @@
 # digital-currency-key
-数字货币文件夹加密解密脚本
+>这是一个文件加密解密程序。如果你害怕自己的重要隐私文件被窥探，它将会很有用，能够很好的保护你的文件不被窥探。
+*************************************
+
+## 使用
+如果你想使用源码。
+```shell
+// 安装依赖
+npm install
+
+// 启动
+npm start
+```
+如果不想这么麻烦，我们也为您准备了可执行程序。
+![home](https://github.com/qq865738120/digital-currency-key/blob/master/assets/preview.png)
