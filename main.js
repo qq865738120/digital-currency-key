@@ -54,7 +54,7 @@ function createWindow() {
       filters.push({ name: "Custom File Type", extensions: ["encode"] });
     }
     console.log("filters", filters, global);
-    const result = await dialog.showOpenDialog({
+    const result = await dialog.showOpenDialog(win, {
       title: "请选择需要加密的文件",
       filters,
       properties: ["openFile"],
@@ -67,7 +67,7 @@ function createWindow() {
   });
 
   ipcMain.on("select-img-file", async (event) => {
-    const result = await dialog.showOpenDialog({
+    const result = await dialog.showOpenDialog(win, {
       title: "请选择二维码密钥",
       filters: [{ name: "Images", extensions: ["png"] }],
       properties: ["openFile"],

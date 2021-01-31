@@ -11,5 +11,5 @@ npm install
 // 启动
 npm start
 ```
-如果不想这么麻烦，我们也为您准备了可执行程序。
+如果不想这么麻烦，我们也为您准备了可执行程序，[点击下载](https://github.com/qq865738120/digital-currency-key/releases/tag/0.0.1)。
 ![home](https://github.com/qq865738120/digital-currency-key/blob/main/assets/preview.png)
