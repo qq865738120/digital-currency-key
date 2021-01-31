@@ -1,6 +1,8 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
+const jimp = require("jimp");
+const qrcodeReader = require("qrcode-reader");
 
 /**
  * 加密函数
@@ -52,9 +54,6 @@ function decode(inputFilePath, outputFilePath, key) {
   });
 }
 module.exports.decode = decode;
-
-const jimp = require("jimp");
-const qrcodeReader = require("qrcode-reader");
 
 /**
  * 解码二维码图片

@@ -12,4 +12,4 @@ npm install
 npm start
 ```
 如果不想这么麻烦，我们也为您准备了可执行程序。
-![home](https://github.com/qq865738120/digital-currency-key/blob/master/assets/preview.png)
+![home](https://github.com/qq865738120/digital-currency-key/blob/main/assets/preview.png)
